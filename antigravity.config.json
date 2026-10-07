@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/mcp-server-config.json",
+  "mcpServers": {
+    "sqlite-db-optimizer": {
+      "command": "node",
+      "args": [
+        "src/mcp-server.js"
+      ],
+      "env": {
+        "DB_PATH": "./ecommerce.db"
+      }
+    }
+  }
+}

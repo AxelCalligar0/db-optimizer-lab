@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "sqlite-db-optimizer": {
+      "command": "node",
+      "args": [
+        "src/mcp-server.js"
+      ],
+      "env": {
+        "DB_PATH": "./ecommerce.db"
+      }
+    }
+  }
+}
